@@ -17,18 +17,73 @@ Select ONE Additional
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Unit 11 Project</title>
+    <title>My Top 3 Albums</A></title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown("slow");
+  });
+});
+</script>
+    <style>
+      #all{
+        text-align: center;
+      }
+
+      <style> 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+</style>
+    </style>
   </head>
-  <body>
-    <button id="mem1-button">Memory #1</button>
-    <button id="mem2-button">Memory #2</button>
-    <button id="mem3-button">Memory #3</button>
-    <h1>My Top 3 Memories of <span>This Year</span></h1>
-    <ol>
+  <body> 
+    <button id="mem1-button">Album 1</button>
+    <button id="mem2-button">Album 2</button>
+    <button id="mem3-button">Album 3</button>
+
+
+
+    <h1 id="all">My Top 3 Albums for me <span> Right Now </span></h1>
+    <ol id="all">
       <li>
-        <h3 id="mem1">Memory #1</h3>
-        <p>More about this memory.</p>
+        <h3 id="mem1">The Most Beautiful Moment in Life: Young Forever</h3>
+        <p>Intro: The Most Beautiful Moment in Life <br>
+
+I Need U <br>
+<strong>Hold Me Tight</strong><br>
+Autumn Leaves <br>
+Butterfly (Prologue Mix)<br>
+RUN <br>
+Ma City <br>
+Silver Spoon <br>
+Dope <br>
+Fire (Title and First Single) <br>
+Save Me (Follow-up and Second Single) <br>
+Epilogue: Young Forever (Third Single) <br>
+<em>CD 2</em>  <br>
+Converse High  <br>
+Moving On <br>
+Whalien 52  <br>
+Butterfly  <br>
+House Of Cards (Full Length Edition)  <br>
+Love Is Not Over (Full Length Edition)  <br>
+I Need U (Urban Mix)  <br>
+I Need U (Remix)  <br>
+Run (Ballad Mix)  <br>
+Run (Alternative Mix)  <br>
+Butterfly (Alternative Mix)  <br>
+</p>    
       </li>
 
       <li>
